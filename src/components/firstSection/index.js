@@ -8,7 +8,7 @@ export default function Index() {
         image1:  file(relativePath: { eq: "group-13.jpg" }) {
             childImageSharp {
             
-              fixed(width: 400) {
+              fixed(width: 300) {
                 ...GatsbyImageSharpFixed
               }
             }
