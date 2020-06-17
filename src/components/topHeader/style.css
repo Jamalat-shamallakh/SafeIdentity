@@ -1,0 +1,22 @@
+.top-header{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .top-header{
+        display: flex;
+        justify-content: flex-end;
+        background-color: #60656f;
+        padding: 5px 10px;
+    }
+    .top-header-links{
+        color: white !important;
+        margin-left: 10px;
+        text-decoration: none;
+        font-size: .7rem;
+    }
+    .top-header-links:hover{
+        color: #f4d35e !important ;
+        margin-left: 5px;
+        text-decoration: none;
+    }
+}

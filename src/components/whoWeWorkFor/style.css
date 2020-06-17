@@ -1,0 +1,106 @@
+.who-we-work-container {
+    background-color: #eeefef;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.font-family{
+    font-family: 'Source Sans Pro';
+}
+.parag-style{
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+}
+.read-more-bt{
+    border-radius: 40px;
+    padding: 15px 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+    border: 2px solid #fff;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    color: #60656f;
+    position: absolute;
+    bottom: 0;
+    width: 205px;
+    margin-right:12%;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+.read-more-bt:hover{
+    background-color:  #f4d35e;
+    border-color:  #f4d35e;
+}
+.read-more-bt-margin{
+    margin: 0 auto;
+  margin-top: 68px;
+  width:60%;
+  text-align: start;
+}
+.dispaly-img{
+    display: none;
+}
+.col-width{
+    width: 70%;
+    margin:  auto;
+
+}
+.who-we-work-container-first-row,
+.who-we-work-container-second-row{
+    display: none;
+}
+.who-we-work-container-first-row-col{
+    margin: 23px auto 0px;
+}
+.who-we-work-container .carousel-indicators{
+    bottom: -65px;
+}
+.dot-display{
+    display: block;
+}
+.who-we-work-container .carousel-inner {
+    padding-bottom: 16px;
+}
+@media screen and (min-width: 1040px) {
+.who-we-work-container{
+    display: flex;
+    background: none;
+    width: 100%;
+    padding-bottom: 15px;
+    height: auto;
+}
+.who-we-work-container-first-row,
+.who-we-work-container-second-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 45px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.col-width{
+    width: 30%;
+}
+.who-we-work-container-first-row-col ,
+.who-we-work-container-second-row-col{
+   text-align: start;
+    height: 365px; 
+    position: relative;
+}
+
+.dispaly-img{
+    display: block;
+}
+.who-we-work-carousel{
+    display: none;
+}
+.read-more-bt-margin{
+    width: 100%;
+}
+}
