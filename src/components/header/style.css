@@ -37,9 +37,9 @@
         transition:max-height 1s;
     } 
     .logo{
-        width: 163px;
+        width: 137px;
         margin-left: 12px;
-        margin-bottom: 7px;
+        margin-bottom: 0px;
     }
     .nav-links{
         text-decoration: none;
