@@ -6,11 +6,21 @@
     margin: 0px auto;
     text-align: center;
 }
+.second-section-tittle{
+    display: flex;
+    font-family:  'Montserrat';
+    padding-top:65px;
+    font-size: 1.9rem;
+    justify-content: center;
+}
 .first-section-tittle{
     display: flex;
     font-family:  'Montserrat';
     flex-direction: column;
     padding-top:65px
+}
+.second-section-tittle .colored-tittle{
+    margin-left: 12px;
 }
 .colored-tittle{
     color: #f4d35e;
@@ -52,6 +62,14 @@
     width: 40%;
     margin-left: 35%;
     margin-top: 150px;
+}
+
+.second-section-tittle{
+    flex-direction: column;
+    font-size: 2rem;
+}
+.second-section-tittle .colored-tittle{
+    margin-left: 0px;
 }
 .background-responsive-img{
     display: none;

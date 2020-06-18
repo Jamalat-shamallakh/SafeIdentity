@@ -38,7 +38,7 @@ export default function Index() {
   `)
     return (
         <div className="read-more-carousel">
-            <h1>
+            <h1 style={{marginBottom:"2rem"}}>
             Read More 
                 <span className="colored-tittle" style={{marginLeft:"10px"}}>
                 About SAFE

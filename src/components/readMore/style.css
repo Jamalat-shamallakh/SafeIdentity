@@ -1,7 +1,15 @@
 .read-more-carousel{
     width: 90%;
     margin: 0px auto;
+    padding-top: 50px;
     text-align: center;
+}
+.read-more-carousel h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    font-family:  Montserrat;
 }
 .img-container{
     width: 100%;
@@ -12,4 +20,9 @@
     width: 80%;
     margin: 0 auto;
 }
-
+@media screen and (min-width: 1040px) {
+    .read-more-carousel h1{
+        flex-direction: row;
+        font-size: 2.5rem;
+    }
+}

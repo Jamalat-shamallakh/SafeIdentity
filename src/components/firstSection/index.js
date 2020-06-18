@@ -31,10 +31,10 @@ export default function Index() {
               <span className="colored-tittle">
               Identity SAFE
               </span>
-              <span className="dot-img">
+          </h1>
+          <span className="dot-img">
               <Img fixed={data.image2.childImageSharp.fixed} />
               </span>
-          </h1>
           <p className="title-parg">SAFE indentity is an industry consortium and standards organization that provides an ecosystem for indentity assurance in the healthcare sector to enable trust, security and user convenience
           </p>
         </div>
@@ -42,15 +42,15 @@ export default function Index() {
         <Img fixed={data.image1.childImageSharp.fixed} />
         </div>
         <div className="second-section">
-          <h1 className ="first-section-tittle"> 
+          <h1 className ="second-section-tittle"> 
                WHAT IS 
               <span className="colored-tittle">
               SAFE
               </span>
-              <span  className="dot-img">
+          </h1>
+          <span  className="dot-img">
               <Img fixed={data.image2.childImageSharp.fixed} />
               </span>
-          </h1>
           <p className="title-parg">
           Sensitive healthcare data requires high levels of security and assurance - but the integrity and confidence of digital credentials vary widely across the health industry.
           </p>

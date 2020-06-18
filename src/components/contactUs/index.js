@@ -21,8 +21,8 @@ export default function index() {
             </div>
             <div className="contact-us-details">
                 <h3 className="contact-us-tittle">
-                Get in touch with SAFE Identity <span style={{fontSize: "55px",
-                      color: "#f4d35e" ,display:"block",fontSize:"1.5rem"}}>...</span>
+                Get in touch with SAFE Identity <span style={{fontSize: "2.5rem",
+                      color: "#f4d35e" ,display:"block"}}>...</span>
                 </h3>
                 <div className="contact-us-detail">
                 <h6 className="contact-us-detail-tittle">Address</h6>
