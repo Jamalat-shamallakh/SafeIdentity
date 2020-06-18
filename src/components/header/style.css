@@ -24,6 +24,7 @@
     .main-nav {
         position: absolute;
         top:100%;
+        left: 0%;
         list-style: none;
         display: none;
         height: auto;

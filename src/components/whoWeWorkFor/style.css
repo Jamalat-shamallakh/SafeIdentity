@@ -24,10 +24,7 @@
     letter-spacing: .2rem;
     text-align: center;
     color: #60656f;
-    position: absolute;
-    bottom: 0;
     width: 205px;
-    margin-right:12%;
     text-decoration: none;
     transition: all 1s ease;
 }
@@ -37,9 +34,8 @@
 }
 .read-more-bt-margin{
     margin: 0 auto;
-  margin-top: 68px;
-  width:60%;
-  text-align: start;
+    margin-top: 41px;
+    text-align: center;
 }
 .dispaly-img{
     display: none;
@@ -64,6 +60,10 @@
 }
 .who-we-work-container .carousel-inner {
     padding-bottom: 16px;
+}
+.who-we-work-container .carousel-item {
+    position: relative;
+    padding-bottom: 17px;
 }
 @media screen and (min-width: 1040px) {
 .who-we-work-container{
@@ -99,6 +99,11 @@
 }
 .who-we-work-carousel{
     display: none;
+}
+.read-more-bt{
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
 }
 .read-more-bt-margin{
     width: 100%;
