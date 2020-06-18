@@ -7,9 +7,9 @@ export default function index() {
                 <div  className="content">
             <h1 className="rely-tittle">
                 
-                SAFE-BIOPHARMA 
+                SAFE-Biopharma 
                 <span className="colored-tittle" style={{marginLeft:"10px"}}>
-                RE-IMAGINED 
+                RE-imagined
             </span>
             </h1> 
              
