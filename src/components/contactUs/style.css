@@ -5,7 +5,7 @@
 }
 .contact-us-section-display{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 90%;
     margin: 0 auto;
 }
@@ -53,6 +53,7 @@
     border-radius: 21px;
     color: #495057;
     padding: 20px 15px;
+    outline: none;
 }
 .textarea:hover{
     border: 1px solid  #6a8daa;
