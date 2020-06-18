@@ -26,10 +26,12 @@
         top:100%;
         left: 0%;
         list-style: none;
-        display: none;
-        height: auto;
+        width: 100%;
+        max-height: 0;
         background:white;
         border-top: 1px solid #eee;
+        overflow: hidden;
+        transition: all 1s;
     } 
     .logo{
         width: 163px;
@@ -64,13 +66,14 @@
         border-radius: .25rem;
         outline: none;
     }
-    .navbar-toggle:hover{
+    .navbar-toggle:focus{
         outline: none;
     }
     .active {
         display: flex;
         flex-direction: column;
         width:100%;
+        max-height: 500px;
     }
     .navbar-toggle-icon{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
