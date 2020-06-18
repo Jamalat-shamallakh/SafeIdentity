@@ -18,16 +18,23 @@
     }
     .navbar {
         font-size: 18px;
+        padding: 0rem 1rem !important;
     }
     
     .main-nav {
-        list-style-type: none;
+        position: absolute;
+        top:100%;
+        list-style: none;
         display: none;
         height: auto;
-        background: white;
+        background:white;
         border-top: 1px solid #eee;
+    } 
+    .logo{
+        width: 163px;
+        margin-left: 12px;
+        margin-bottom: 7px;
     }
-    
     .nav-links{
         text-decoration: none;
         color: #60656f;  
@@ -117,14 +124,20 @@
     
         .main-nav {
             display: flex;
+            position: absolute;
+            top: 35%;
+            left: 26%;
             justify-content: flex-end;
             margin-right: 30px;
             flex-direction: row;
             height: auto;
             border: none;
             width: 70%;
+            background: transparent;
         }
-    
+        .logo{
+            width:200px
+        }
         .main-nav li {
             margin: 0;
         }
@@ -152,6 +165,7 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    
     @media  screen and (max-width:765px) {
         .nav-links {
             color: #60656f;

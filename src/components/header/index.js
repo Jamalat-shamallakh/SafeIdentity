@@ -40,8 +40,7 @@ class Header extends Component{
         <button className="navbar-toggle" id="js-navbar-toggle" onClick={(e)=> this.handleClick(e)}>
             <span className="navbar-toggle-icon"></span>
         </button>
-        <Icon  style={{marginLeft: "13px",
-                marginBottom: "7px" ,height:"75"}}/>
+        <Icon className="logo"/>
         <ul className={this.state.mainNavClass} id="js-menu">
             <li>
                <Link to='/' className="nav-links">WHAT IS SAFE</Link>
