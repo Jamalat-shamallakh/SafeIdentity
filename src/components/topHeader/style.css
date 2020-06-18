@@ -6,7 +6,7 @@
         display: flex;
         justify-content: flex-end;
         background-color: #60656f;
-        padding: 5px 10px;
+        padding: 5px 20px;
     }
     .top-header-links{
         color: white !important;
@@ -16,7 +16,7 @@
     }
     .top-header-links:hover{
         color: #f4d35e !important ;
-        margin-left: 5px;
+        margin-left: 10px;
         text-decoration: none;
     }
 }

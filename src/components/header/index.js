@@ -9,14 +9,14 @@ class Header extends Component{
     dropdownClasses:"dropdown-menu-style"
   }
   handleClick = (e)=>{
-    if(this.state.mainNavClass.search("active")!== -1){
+    if(this.state.mainNavClass.search("activeNav")!== -1){
       this.setState({
         mainNavClass:"main-nav",
        
       })
     }else{
       this.setState({
-        mainNavClass:"main-nav active",
+        mainNavClass:"main-nav activeNav",
        
       })
     }

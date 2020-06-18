@@ -35,8 +35,9 @@
     margin: 30px auto;
 }
 .provid-carousel .carousel-indicators{
-    bottom: -78px !important;
+    top: 100% !important;
 }
+
 @media screen and (min-width: 1040px) {
 .provide-sections{
     display: flex;
