@@ -34,7 +34,7 @@
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
         overflow: hidden;
-        transition: all 1s;
+        transition:max-height 1s;
     } 
     .logo{
         width: 163px;
@@ -144,6 +144,7 @@
             width: 70%;
             background: transparent;
             overflow:visible;
+            transition: all 0s;
         }
         .logo{
             width:200px
