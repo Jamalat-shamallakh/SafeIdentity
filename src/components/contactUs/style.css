@@ -26,6 +26,7 @@
     border-radius: 25px;
     min-height: 450px;
     margin-bottom: 80px;
+    box-shadow: 0 60px 80px 0 rgba(0, 0, 0, 0.1);
 }
 .input-section{
     position: relative;
@@ -131,15 +132,15 @@
         flex-direction: row;
         width: 80%;
         margin: 0 auto;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .contact-us-form{
         position: relative;
-        width: 50%;
+        width: 42%;
     }
     .contact-us-details {
         padding-top: 34px;
-        width: 47%;
+        width: 40%;
         padding-left: 0rem;
     }
 }
