@@ -36,7 +36,7 @@ export default function index() {
                 </div>
                 <div className="footer-second-section-links">
                     <a href="#">Privacy Statement</a>
-                    <span>|</span>
+                    <span className="mf">|</span>
                     <a href="#"> Terms of Use</a>
                 </div>
             </div>
