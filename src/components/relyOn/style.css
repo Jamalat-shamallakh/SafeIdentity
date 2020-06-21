@@ -33,7 +33,7 @@
     font-family: 'Source Sans Pro';
 }
 .rely-bt{
-    padding: 15px 69px;
+    padding: 15px 75px;
     border-radius: 40px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
     background-color: #f4d35e;
@@ -76,5 +76,8 @@
     }
     .parag-content{
         font-size: 1.16666666rem;
+    }
+    .rely-bt{
+        padding: 15px 97px;
     }
 }
