@@ -31,12 +31,17 @@
     margin-top: 50px;
 }
 .provide-section{
-    width: 50%;
+    width: 90%;
+    margin: 10px auto;
     height: auto;
 }
 .provid-carousel .carousel-indicators{
     top: 100% !important;
 }
+.provid-carousel .carousel-inner{
+    padding-bottom: 30px;
+}
+
 .provide-section-parag{
     font-size: 1.055555556rem;
     color: #60656f;
