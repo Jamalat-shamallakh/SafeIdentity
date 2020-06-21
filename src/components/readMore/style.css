@@ -2,6 +2,8 @@
     width: 100%;
     padding-top: 50px;
     text-align: center;
+    padding-bottom: 49px;
+
 }
 .read-more-carousel h1{
     display: flex;
@@ -56,6 +58,14 @@
     letter-spacing: 2.4px;
     text-align: right;
     color: #60656f
+}
+.read-more-carousel .carousel-inner {
+    min-height: 443px;
+}
+@media (min-width: 576px){
+    .read-more-carousel .carousel-inner {
+        min-height: 481px;
+    }
 }
 @media screen and (min-width: 768px) {
     .read-more-carousel h1{

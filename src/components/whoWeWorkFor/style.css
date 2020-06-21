@@ -70,17 +70,28 @@
     display: block;
 }
 .who-we-work-container .carousel-inner {
-    padding-bottom: 16px;
+   min-height: 515px;
+
 }
 .who-we-work-container .carousel-item {
     position: relative;
     padding-bottom: 17px;
 }
+@media (min-width: 576px){
+    .who-we-work-container .carousel-inner {   
+         min-height: 408px; 
+     
+     }
+}
 @media screen and (min-width: 768px) {
    .second-container-heading{
        font-size: 2rem
    };
+   .who-we-work-container .carousel-inner {
+    min-height: 371px;
 }
+}
+
 @media screen and (min-width: 1040px) {
 .who-we-work-container{
     display: flex;

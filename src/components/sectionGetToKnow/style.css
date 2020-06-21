@@ -68,6 +68,14 @@ color: #f4d35e !important;
 .carousel-indicators .active{
     background-color:#f4d35e !important;
 }
+.carousel-inner {
+    min-height: 365px;
+}
+@media (min-width: 576px){
+    .carousel-inner {
+        min-height: 380px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .second-container-heading{

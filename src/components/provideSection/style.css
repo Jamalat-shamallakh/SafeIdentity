@@ -39,7 +39,7 @@
     top: 100% !important;
 }
 .provid-carousel .carousel-inner{
-    padding-bottom: 30px;
+    min-height: 630px;
 }
 
 .provide-section-parag{
@@ -51,6 +51,12 @@
     font-family: Montserrat;
     color: #141618;
 }
+@media (min-width: 576px){
+    .provid-carousel .carousel-inner {
+        min-height: 555px;
+    }
+}
+
 @media screen and (min-width: 768px) {
 .provide-sections{
     display: flex;
