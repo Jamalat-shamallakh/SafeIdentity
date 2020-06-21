@@ -28,7 +28,7 @@
     color: #60656f;
 }
 .provide-bt-container{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .provide-section{
     width: 90%;
@@ -38,8 +38,8 @@
 .provid-carousel .carousel-indicators{
     top: 100% !important;
 }
-.provid-carousel .carousel-inner{
-    min-height: 630px;
+.provide-section{
+    min-height: 577px;;
 }
 
 .provide-section-parag{
@@ -52,8 +52,8 @@
     color: #141618;
 }
 @media (min-width: 576px){
-    .provid-carousel .carousel-inner {
-        min-height: 555px;
+    .provide-section {
+        min-height: 500px;
     }
 }
 

@@ -62,6 +62,7 @@
 }
 .who-we-work-container-first-row-col{
     margin: 23px auto 0px;
+    min-height: 480px;
 }
 .who-we-work-container .carousel-indicators{
     bottom: -65px;
@@ -69,27 +70,22 @@
 .dot-display{
     display: block;
 }
-.who-we-work-container .carousel-inner {
-   min-height: 515px;
-
-}
 .who-we-work-container .carousel-item {
     position: relative;
     padding-bottom: 17px;
 }
 @media (min-width: 576px){
-    .who-we-work-container .carousel-inner {   
-         min-height: 408px; 
-     
-     }
+     .who-we-work-container-first-row-col{
+        min-height: 366px;
+    }
 }
 @media screen and (min-width: 768px) {
    .second-container-heading{
        font-size: 2rem
-   };
-   .who-we-work-container .carousel-inner {
-    min-height: 371px;
-}
+   }
+   .who-we-work-container-first-row-col{
+    min-height: 304px;
+  }
 }
 
 @media screen and (min-width: 1040px) {
