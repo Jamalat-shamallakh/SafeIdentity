@@ -70,8 +70,8 @@ query {
 
             </span>
             
-            <h4>HOW CAN YOU BENEFIT FROM SAFE IDENTITY?</h4>
-            <p>Who is SAFE Identity for – and how can it make trust easier for you?</p>
+            <h4 className ="get-to-know-section-tittle">How can you benefit from SAFE Identity? </h4>
+            <p className="get-to-know-section-parag">Who is SAFE Identity for – and how can it make trust easier for you?</p>
             <a className="read-more"> START HERE > </a>
           </div>
           <div className="get-to-know-section" style={{paddingTop:"73px"}}>
@@ -80,14 +80,15 @@ query {
             <Img fixed={data.image5.childImageSharp.fixed} className="arrow-resize"/>
 
             </span>
-            <h4>RELY ON SAFE</h4>
-            <p>Root your trust in the SAFE Identity ecosystem. Get the answers you need.</p>
+            <h4 className ="get-to-know-section-tittle">Rely on Safe</h4>
+            <p className="get-to-know-section-parag">Root your trust in the SAFE Identity ecosystem.
+               Get the answers you need. </p>
             <a className="read-more">GET THE ANSWERS ></a>
           </div>
           <div className="get-to-know-section" style={{paddingTop:"128px"}}>
           <Img fixed={data.image3.childImageSharp.fixed} />
-            <h4>BECOME A PART OF THE SAFE IDENTITY ECOSYSTEM.</h4>
-            <p>Find out why you should join us.</p>
+            <h4 className ="get-to-know-section-tittle">Become a Part of the SAFE Identity Ecosystem. </h4>
+            <p className="get-to-know-section-parag">Find out why you should join us.</p>
             <a className="read-more"> WHY JOIN SAFE ></a>
           </div>
 
@@ -98,24 +99,24 @@ query {
             <Carousel.Item>
             <div className="get-to-know-section">
               <Img fixed={data.image1.childImageSharp.fixed} />
-              <h4>HOW CAN YOU BENEFIT FROM SAFE IDENTITY?</h4>
-              <p>Who is SAFE Identity for – and how can it make trust easier for you?</p>
+              <h4 className ="get-to-know-section-tittle">HOW CAN YOU BENEFIT FROM SAFE IDENTITY?</h4>
+              <p className="get-to-know-section-parag">Who is SAFE Identity for – and how can it make trust easier for you?</p>
               <a className="read-more"> START HERE > </a>
             </div>
             </Carousel.Item>
             <Carousel.Item>
                 <div className="get-to-know-section">
                 <Img fixed={data.image2.childImageSharp.fixed} />
-            <h4>RELY ON SAFE</h4>
-            <p>Root your trust in the SAFE Identity ecosystem. Get the answers you need.</p>
+            <h4 className ="get-to-know-section-tittle">RELY ON SAFE</h4>
+            <p className="get-to-know-section-parag">Root your trust in the SAFE Identity ecosystem. Get the answers you need.</p>
             <a className="read-more">GET THE ANSWERS ></a>
               </div> 
             </Carousel.Item>
             <Carousel.Item>
             <div className="get-to-know-section">
           <Img fixed={data.image3.childImageSharp.fixed} />
-            <h4>BECOME A PART OF THE SAFE IDENTITY ECOSYSTEM.</h4>
-            <p>Find out why you should join us.</p>
+            <h4 className ="get-to-know-section-tittle">BECOME A PART OF THE SAFE IDENTITY ECOSYSTEM.</h4>
+            <p className="get-to-know-section-parag">Find out why you should join us.</p>
             <a className="read-more"> WHY JOIN SAFE ></a>
           </div>
             </Carousel.Item>

@@ -12,6 +12,7 @@
     padding: 15px 40px;
     border-radius: 40px;
     font-family: 'Source Sans Pro';
+    font-weight: bold;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
     font-size: 17px;
     letter-spacing: .2rem;
@@ -32,29 +33,37 @@
 .provide-section{
     width: 50%;
     height: auto;
-    margin: 30px auto;
 }
 .provid-carousel .carousel-indicators{
     top: 100% !important;
 }
-
-@media screen and (min-width: 1040px) {
+.provide-section-parag{
+    font-size: 1.055555556rem;
+    color: #60656f;
+    font-family: 'Source Sans Pro';
+}
+.provide-section-tittle{
+    font-family: Montserrat;
+    color: #141618;
+}
+@media screen and (min-width: 768px) {
 .provide-sections{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: 58px auto;
+    margin: 65px auto;
 }
 .provide-section{
-    width: 28%;
-    margin-bottom: 20px;
+    width: 30%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.provide-section:hover{
+    border-radius: 16px;
+    box-shadow: 0 50px 48px 0 rgba(0, 2, 30, 0.08);
+    background-color: #ffffff;
 }
 .provid-carousel{
     display: none;
-}
-}
-@media screen and (max-width: 500px){
-.provide-bt{
-    font-size: 10px;
 }
 }

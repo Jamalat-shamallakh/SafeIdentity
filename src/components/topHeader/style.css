@@ -6,13 +6,17 @@
         display: flex;
         justify-content: flex-end;
         background-color: #60656f;
-        padding: 5px 20px;
+        padding: 14px 21px 6px;
     }
     .top-header-links{
-        color: white !important;
         margin-left: 10px;
         text-decoration: none;
-        font-size: .7rem;
+        font-weight: 600;
+        font-size: .6666666667rem;
+        font-family:  'Source Sans Pro';
+        line-height: 1.75;
+        text-align: right;
+        color: #e2e4e8 !important;
     }
     .top-header-links:hover{
         color: #f4d35e !important ;

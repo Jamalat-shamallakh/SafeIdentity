@@ -54,47 +54,47 @@ export default function Index() {
            <div className="provide-sections">
                <div className="provide-section">
                 <Img fixed= {data.image1.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 The Trust Framework 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 Using our in-house lab, we test products available around the world for adherence to industry standards that define proper handling and interoperability of digital identity software products. Our testing allows enterprises to support multiple identity providers and enables digital identities to function across various applications.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#" className="provide-bt">LEARN MORE</a>
+                    <a href="#" className="provide-bt">READ MORE</a>
                 </div>
                </div>
                <div className="provide-section">
                 <Img fixed= {data.image2.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 The SAFE Identity QPL 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 Our Trust Framework facilitates trust by providing a combination of policies and services for digital signatures, authentication, federation and encryption that are implemented by our certified product and service providers. The Trust Framework defines the standards and test use cases that form the backbone of the SAFE Identity ecosystem.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#"  className="provide-bt">LEARN MORE</a>
+                    <a href="#"  className="provide-bt">READ MORE</a>
                 </div>
                </div>
                <div className="provide-section">
                 <Img fixed= {data.image3.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 SAFE Global Encryption Directory 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 SGED is a central repository of all SAFE Certified Certificates that seamlessly integrates with Outlook. Senders can choose the most current and valid recipient certificate when sending encrypted emails, inside and outside their enterprise. SGED automatically updates when new certificates are issued by a SAFE Bridge CA Member.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#" className="provide-bt">LEARN MORE</a>
+                    <a href="#" className="provide-bt">READ MORE</a>
                 </div>
                </div>
            </div>
@@ -103,51 +103,51 @@ export default function Index() {
                 <Carousel.Item >
                 <div className="provide-section">
                 <Img fixed= {data.image2.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 The SAFE Identity QPL 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 Our Trust Framework facilitates trust by providing a combination of policies and services for digital signatures, authentication, federation and encryption that are implemented by our certified product and service providers. The Trust Framework defines the standards and test use cases that form the backbone of the SAFE Identity ecosystem.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#" className="provide-bt">LEARN MORE</a>
+                    <a href="#" className="provide-bt">READ MORE</a>
                 </div>
                 </div>
                 </Carousel.Item>
                 <Carousel.Item >
                 <div className="provide-section">
                 <Img fixed= {data.image3.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 SAFE Global Encryption Directory 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 SGED is a central repository of all SAFE Certified Certificates that seamlessly integrates with Outlook. Senders can choose the most current and valid recipient certificate when sending encrypted emails, inside and outside their enterprise. SGED automatically updates when new certificates are issued by a SAFE Bridge CA Member.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#" className="provide-bt">LEARN MORE</a>
+                    <a href="#" className="provide-bt">READ MORE</a>
                 </div>
                 </div>
                 </Carousel.Item>
                 <Carousel.Item >
                 <div className="provide-section">
                 <Img fixed= {data.image3.childImageSharp.fixed} />
-                <h3>
+                <h3 className="provide-section-tittle">
                 SAFE Global Encryption Directory 
                 <span  style={{display:"block"}}>
                 <Img fixed= {data.image4.childImageSharp.fixed} />
                 </span>   
                 </h3>
-                <p>
+                <p className="provide-section-parag">
                 SGED is a central repository of all SAFE Certified Certificates that seamlessly integrates with Outlook. Senders can choose the most current and valid recipient certificate when sending encrypted emails, inside and outside their enterprise. SGED automatically updates when new certificates are issued by a SAFE Bridge CA Member.
                 </p>
                 <div className="provide-bt-container">
-                    <a href="#" className="provide-bt">LEARN MORE</a>
+                    <a href="#" className="provide-bt">READ MORE</a>
                 </div>
                 </div>
                 </Carousel.Item>

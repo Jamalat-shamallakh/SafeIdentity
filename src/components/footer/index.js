@@ -7,14 +7,14 @@ export default function index() {
             <div className="footer-first-section">
                 <Icon  className="white-logo"/>
                 <div className="footer-first-section-links-container">
-                <h6  style={{fontFamily:"Montserrat"}}> SAFE IDENTITY</h6> 
+                <h6> SAFE IDENTITY</h6> 
                     <a href="#" className="footer-first-section-link">What Is SAFE Identity?</a>
                     <a href="#"  className="footer-first-section-link">Qualified Products List</a>
                     <a href="#"  className="footer-first-section-link">Join the Ecosystem</a>
                     <a href="#"  className="footer-first-section-link">Buy a SAFE Certified Credential</a>
                 </div>
                 <div className="footer-first-section-links-container">
-                <h6  style={{fontFamily:"Montserrat"}}> GET INVOLVED</h6>
+                <h6> GET INVOLVED</h6>
                     <a href="#" className="footer-first-section-link">Benefits of SAFE</a>
                     <a href="#"  className="footer-first-section-link">Rely on the SAFE Trust Framework</a>
                     <a href="#"  className="footer-first-section-link">Get SAFE Certified Credentials</a>
@@ -22,7 +22,7 @@ export default function index() {
                     <a href="#"  className="footer-first-section-link">Become a Bridge Member</a>
                 </div>
                 <div className="footer-first-section-links-container">
-                <h6 style={{fontFamily:"Montserrat"}}>WHAT WE PROVIDE</h6> 
+                <h6>WHAT WE PROVIDE</h6> 
                     <a href="#" className="footer-first-section-link">Trust Framework</a>
                     <a href="#"  className="footer-first-section-link">SAFE Identity Bridge CA</a>
                     <a href="#"  className="footer-first-section-link">Policy Management Authority</a>

@@ -13,11 +13,11 @@ export default function index() {
             </span>
             </h1> 
              
-            <div className="parag-content">
+            <div className="saf-biopharma-parag-content">
             With the creation of SAFE Identity, we’re making our mark on digital identity and trust in healthcare. The SAFE-Biopharma defined policies and rules have evolved into the SAFE Identity Trust Framework. An important new step is that these policies are now industry-consensus driven, directed by the Policy Management Authority members with facilitation by SAFE Identity. We’ve opened the SAFE ecosystem to everyone featuring certified, tested and interoperable application solutions for digital signatures, authentication, encryption and identity verification, as well as services to facilitate trust and security between different credential issuers and relying parties. 
             </div>
-            <p><small>The SAFE Identity Vision Paper, Learn more about the future of safe</small></p>
-            <div className="parag-content button-mt">
+            <p><small className="safe-identity-hint">The SAFE Identity Vision Paper, Learn more about the future of safe</small></p>
+            <div className="saf-biopharma-parag-content button-mt">
             <a href="#" className="rely-bt">DOWNLOAD</a>
             </div>
             </div>

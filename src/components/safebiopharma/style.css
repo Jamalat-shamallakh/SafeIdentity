@@ -11,7 +11,7 @@
 .content{
     width:80%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 30px;
     color: white;
     text-align: center;
@@ -19,13 +19,15 @@
 .rely-tittle{
     font-family:  Montserrat;
 }
-.parag-content{
-    font-family:'Source Sans Pro' ;
-    font-size: 20px;
-    margin:30px 0px
+.saf-biopharma-parag-content{
+  font-family: 'Source Sans Pro';
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px 0px;
 }
 .rely-bt{
-    padding: 15px 40px;
+    padding: 15px 97px;
     border-radius: 40px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
     background-color: #f4d35e;
@@ -42,7 +44,15 @@
     color: white;
     text-decoration: none;
 }.button-mt{
-    margin-top: 20px;
+    margin-top: 33px;
+}
+.safe-identity-hint{
+  font-family: 'Source Sans Pro';
+  font-size: 17px;
+  line-height: 1.71;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 25px;
 }
 @media screen and (min-width: 1040px) {
     .bg-saf-biopharma{
@@ -50,5 +60,8 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         
+    }
+    .saf-biopharma-parag-content{
+        font-size: 1.16666667rem;
     }
 }

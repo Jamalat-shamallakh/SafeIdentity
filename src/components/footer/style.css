@@ -13,7 +13,7 @@
 .footer-second-section{
     background-color: #141618;
     color: white;
-    padding:2rem 3rem;
+    padding:3rem 3rem 0rem 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -24,10 +24,22 @@
     color: white;
     font-size: 0.9em;
     margin-bottom: 10px;
+    font-size: .833333333rem;
+    line-height: 1.93;
+    text-align: center;
 }
 .footer-first-section-link:hover{
     text-decoration: none;
     color: #f4d35e;
+}
+.footer-first-section-links-container h6{
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.86;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
 }
 .white-logo{
     width:80%;
@@ -46,11 +58,16 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
+    font-size: .83333333rem;
+    line-height: 1.4;
 }
 .footer-second-section-links{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: .8333333rem;
+    line-height: 1.4;
 }
 .footer-second-section-links a{
     color: white;
@@ -62,7 +79,7 @@
     text-decoration: none;
     color: #f4d35e;
 }
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 768px) {
     .footer-first-section{
         display: flex;
         flex-direction: row;

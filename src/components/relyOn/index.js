@@ -19,7 +19,7 @@ export default function index() {
             <div  className="parag-content">
                 The SAFE Identity Trust Framework, carefully cultivated over 15 years, can make trust much easier. The Trust Framework defines the policies and standards necessary to use secure and interoperable digital credentials that meet your needs. Issuers certified by SAFE are compliant with these policies and standards, ensuring this same security and interoperability across the ecosystem – and making trust a lot simpler for you.
             </div>
-            <p><small>Are you ready to consider your next steps ?</small></p>
+            <p><small className="confirm">Are you ready to consider your next steps ?</small></p>
             <div className="parag-content ">
             <a href="#" className="rely-bt">RELY ON SAFE</a>
             </div>

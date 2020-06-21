@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby";
+import imgresponsive from '../../images/group-13.jpg'
 import './style.css'
 export default function Index() {
     const data = useStaticQuery(graphql`
@@ -8,8 +9,8 @@ export default function Index() {
         image1:  file(relativePath: { eq: "group-13.jpg" }) {
             childImageSharp {
             
-              fixed(width: 300) {
-                ...GatsbyImageSharpFixed
+              fluid{
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -23,6 +24,7 @@ export default function Index() {
             }
         }`
     )
+    console.log(data)
     return (
         <div className="bg-first-container">
         <div className="first-section">
@@ -39,7 +41,8 @@ export default function Index() {
           </p>
         </div>
         <div className="background-responsive-img">
-        <Img fixed={data.image1.childImageSharp.fixed} />
+        {/* <img src={imgresponsive} /> */}
+        <Img fluid={data.image1.childImageSharp.fluid} />
         </div>
         <div className="second-section">
           <h1 className ="second-section-tittle"> 
@@ -53,6 +56,7 @@ export default function Index() {
               </span>
           <p className="title-parg">
           Sensitive healthcare data requires high levels of security and assurance - but the integrity and confidence of digital credentials vary widely across the health industry.
+
           </p>
           <p className="title-parg">
           SAFE Identity ensures that digital identities issued by a provider can be trusted throughout the entire SAFE Identity community. With an ecosystem of certified, tested and interoperable application solutions for digital signatures, authentication, encryption and identity verification, SAFE Identity facilitates trust and security between different credential issuers and relying parties.

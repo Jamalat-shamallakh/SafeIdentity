@@ -1,12 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
-
-* {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
     
     .bg-header{
         position: sticky;
@@ -16,10 +9,7 @@
         font-family: 'Source Sans Pro';
         box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     }
-    .navbar {
-        font-size: 18px;
-        padding: 0rem 1rem !important;
-    }
+   
     
     .main-nav {
         display: flex;
@@ -37,29 +27,31 @@
         transition:max-height 1s;
     } 
     .logo{
-        width: 137px;
-        margin-left: 12px;
-        margin-bottom: 0px;
+        width: 125px;
+        height: 37px;
     }
     .nav-links{
         text-decoration: none;
         color: #60656f;  
         font-weight: bold;
+        font-family: "SourceSansPro";
+        font-size: .7rem;
+        font-weight: bold;
+        letter-spacing: .59px;
+        text-align: center;
     }
     .nav-links:hover {
         color: #007bff;
         text-decoration: none;
     }
     .main-nav li {
-        /* width: 100%; */
         text-align: center;
-        margin: 5px 0px;
     }
     
     .navbar-toggle {
         position: absolute;
-        top: 24px;
-        right: 17px;
+        top: 11px;
+        right: 21px;
         cursor: pointer;
         font-size: 18px;
         padding: .25rem .2rem;
@@ -77,11 +69,10 @@
         max-height: 500px;
     }
     .navbar-toggle-icon{
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='25' height='21' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         display: inline-block;
         width: 1.5em;
         height: 1.5em;
-        vertical-align: middle;
         background-size: 100% 100%
     }
     .dropdown{
@@ -126,28 +117,24 @@
             display: flex;
             flex-wrap: nowrap !important;
             justify-content: space-between;
-            padding-bottom: 0;
-            align-items: flex-end;
+            font-size: 18px;
+            padding: 0rem 1.166666rem 0rem 1.33333rem !important;
         }
-    
         .main-nav {
             display: flex;
             flex-direction: row;
-            position: absolute;
-            top: 35%;
-            left: 26%;
+            position: static;
             justify-content: flex-end;
-            margin-right: 30px;
             flex-direction: row;
             height: auto;
             border: none;
-            width: 70%;
+            min-width: 652px;
             background: transparent;
             overflow:visible;
-            transition: all 0s;
         }
         .logo{
-            width:200px
+            width:190px;
+            height: 75px;
         }
         .main-nav li {
             margin: 0;
@@ -155,7 +142,9 @@
     
         .nav-links {
             color: #60656f;
-            margin-left: 40px;
+            margin-left: 25px;
+            font-size: .9rem;
+            
         }
         .navbar-toggle {
             display: none;
@@ -171,16 +160,27 @@
         }
         
     }
+    @media screen and (min-width: 1040px) {
+        .logo{
+            width:220px;
+            height: 83px;
+        }
+        .nav-links{
+            font-size: 1rem;
+            margin-left: 25px;
+        }
+
+    }
     .show{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
     
-    @media  screen and (max-width:765px) {
+    /* @media  screen and (max-width:765px) {
         .nav-links {
             color: #60656f;
             margin-left: 23px;
             font-size: .8rem;
         }
-    }
+    } */

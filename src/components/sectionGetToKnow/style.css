@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+}
 .bg-second-container{
     width: 100%;
     height: auto;
@@ -11,7 +15,7 @@
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 .get-to-know-section{
@@ -20,12 +24,21 @@
     text-align: center;
     margin:0 auto;
 }
+.get-to-know-section-tittle{
+    font-family: 'Source Sans Pro Bold';
+    font-size: 1.333rem;
+}
+.get-to-know-section-parag{
+    font-size: 1.055555556rem;
+    color: #60656f;
+}
 .read-more{
-    font-size: .58em;
+    font-size: .666rem;
     font-family: Montserrat;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: .13333rem;
     text-align: right;
+    color: #60656f !important;
     transition: .5s all ease;
 }
 .read-more:hover{
@@ -43,7 +56,7 @@ color: #f4d35e !important;
 }
 .carousel-get-to-know .carousel-indicators{
     position: absolute;
-    top: 362px;
+    top: 100%;
 }
 .carousel-indicators li{
    
@@ -55,10 +68,13 @@ color: #f4d35e !important;
 .carousel-indicators .active{
     background-color:#f4d35e !important;
 }
-.carousel-get-to-know .carousel-inner{
-    height: 353px;
-}
 
+@media screen and (min-width: 768px) {
+    .second-container-heading{
+        font-size: 2rem;
+    }
+    
+}
 @media screen and (min-width: 1040px) {
 
 .get-to-know-conatiner{
@@ -71,7 +87,7 @@ color: #f4d35e !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 2.25rem;
+    font-size: 2.6rem;
 }
 .get-to-know-section{
     width:30%;

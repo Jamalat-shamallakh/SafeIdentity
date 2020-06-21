@@ -7,7 +7,6 @@ export default function index() {
             <a className="top-header-links">Join the Ecosystem</a>
             <a className="top-header-links"> Buy a SAFE Certified Credential</a>
             <a className="top-header-links">Get in Touch</a>
-            <a className="top-header-links"> FAQ’s</a>
         </div>
     )
 }

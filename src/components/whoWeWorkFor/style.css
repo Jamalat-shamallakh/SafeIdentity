@@ -9,24 +9,35 @@
     padding-bottom: 60px;
 }
 .font-family{
-    font-family: 'Source Sans Pro';
+    font-family: Montserrat;
+    color: #141618;
+    font-size: 1.7222rem;
+
 }
 .parag-style{
     font-family: 'Source Sans Pro';
     font-size: 15px;
+    color: #60656f;
+}
+.second-container-heading{
+     font-size: 2.66666rem;
 }
 .read-more-bt{
     border-radius: 40px;
     padding: 15px 40px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
     border: 2px solid #fff;
     font-size: 1rem;
     letter-spacing: .2rem;
     text-align: center;
     color: #60656f;
-    width: 205px;
+    width: 220px;
+    height: 60px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
     text-decoration: none;
     transition: all 1s ease;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+    background: white;
 }
 .read-more-bt:hover{
     background-color:  #f4d35e;
@@ -65,13 +76,21 @@
     position: relative;
     padding-bottom: 17px;
 }
+@media screen and (min-width: 768px) {
+   .second-container-heading{
+       font-size: 2rem
+   };
+}
 @media screen and (min-width: 1040px) {
 .who-we-work-container{
     display: flex;
     background: none;
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 97px;
     height: auto;
+}
+.second-container-heading{
+    font-size: 2.6666666rem;
 }
 .who-we-work-container-first-row,
 .who-we-work-container-second-row{
@@ -90,7 +109,7 @@
 .who-we-work-container-first-row-col ,
 .who-we-work-container-second-row-col{
    text-align: start;
-    height: 365px; 
+   margin-bottom: 30px;
     position: relative;
 }
 
@@ -101,11 +120,13 @@
     display: none;
 }
 .read-more-bt{
-    position: absolute;
-    bottom: 5%;
-    left: 1%;
+    position: absolute; 
+    left: 1%; 
 }
 .read-more-bt-margin{
     width: 100%;
+}
+.font-family{
+    font-size: 1.7222222rem;
 }
 }

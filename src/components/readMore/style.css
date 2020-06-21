@@ -1,6 +1,5 @@
 .read-more-carousel{
-    width: 90%;
-    margin: 0px auto;
+    width: 100%;
     padding-top: 50px;
     text-align: center;
 }
@@ -11,19 +10,78 @@
     font-size: 2rem;
     font-family:  Montserrat;
 }
+.carousel-read-more-items{
+    display: block;
+}
 .img-container{
     width: 100%;
+    margin-bottom: 20px;
 }
 .read-more-item{
     padding-bottom: 65px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
+.read-more-items{
+    display: none;
+}
+.read-more-item h5{
+    font-family: Montserrat;
+    font-size: 1.05555555556rem;
+    font-weight: bold;
+    line-height: 1.32;
+    color: #312d3b;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+.read-more-item p{
+    font-family: 'Source Sans Pro';
+    font-size: .8333333333rem;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.87;
 
-@media screen and (min-width: 1040px) {
+}
+.bt-read-more{
+    width: 98px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-align: right;
+    color: #60656f
+}
+@media screen and (min-width: 768px) {
     .read-more-carousel h1{
         flex-direction: row;
         font-size: 2.5rem;
+    }
+    .read-more-items{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .read-more-item{
+        width: 30%;
+        text-align: start;
+    }
+    .read-more-item p{
+    width: 100%;
+    text-align: start;    
+    }
+    .read-more-item h5{
+        width: 100%;
+        text-align: start;    
+        }
+    .carousel-read-more-items{
+        display: none;
     }
     .read-more-carousel .carousel-inner{
         padding-bottom: 14px;

@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React,{Component} from "react"
-import Icon from "../../assets/safe-logo.svg";
+import Icon from "../../assets/group-40.svg";
 import './style.css'
 
 class Header extends Component{

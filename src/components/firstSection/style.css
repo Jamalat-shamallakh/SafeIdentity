@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+    font-family: 'Source Sans Pro';
+    src:url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+}
 .bg-first-container{
     font-family: 'Source Sans Pro';
-    width: 80%;
+    width: 100%;
     margin: 0px auto;
     text-align: center;
+}
+.first-section ,.second-section{
+    width :85%;
+    margin: 0 auto;
 }
 .second-section-tittle{
     display: flex;
@@ -17,7 +27,8 @@
     display: flex;
     font-family:  'Montserrat';
     flex-direction: column;
-    padding-top:65px
+    padding-top:65px;
+    font-size: 1.722222rem;
 }
 .second-section-tittle .colored-tittle{
     margin-left: 12px;
@@ -26,16 +37,25 @@
     color: #f4d35e;
 }
 .title-parg{
-    text-align: start;
+    text-align: center;
+    font-family: 'Source Sans Pro Light';
+    color: #312d3b;
 }
 .learn-more-button{
     border-radius: 25px;
     padding: 8px 21px;
-    border: 1px solid gray;
+    border: 2px solid gray;
     background: transparent;
     color: #60656f;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
     cursor: pointer;
+    width: 165px;
+    height: 21px;
+    font-family: "Source Sans Pro";
+    font-size: .94444444rem;
+    font-weight: bold;
+    text-align: center;
+  
 }
 .learn-more-button:hover{
     border-color: #f4d35e;
@@ -43,6 +63,20 @@
 }
 .bg-second-container{
     background:transparent;
+}
+.background-responsive-img{
+    display: block;
+    width: 95%;
+    overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+    .title-parg{
+        text-align: center;
+        font-size: 1.166666667rem;
+    }
+    .first-section-tittle{
+        font-size: 2.5rem;
+    }
 }
 @media screen and (min-width: 1020px) {
 .bg-first-container{
@@ -78,7 +112,7 @@
     margin-top: -17px;
 }
 .title-parg{
-    padding-left: 0%;
+    text-align: start;
 }
 .bg-second-container{
     background-image: url('../../images/458BC48A-7411-41CB-BDF1-092A99309838.png');

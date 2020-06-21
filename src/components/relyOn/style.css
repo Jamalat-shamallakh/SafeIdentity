@@ -1,11 +1,11 @@
 .by-rely-on{
-    background-image: url('../../images/img-copy.jpg');
-    background-size: 200% 100%;
+    background-image: url('../../images/img-copy-3.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     
 }
 .bg-overlay{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(49,45,59,0.8);
 }
 .content{
     width:80%;
@@ -14,9 +14,10 @@
     padding-bottom: 30px;
     color: white;
     text-align: center;
+    padding-bottom: 120px;
 }
 .rely-tittle{
-    font-size: 1.6rem;
+    font-size: 1.722rem;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -24,10 +25,15 @@
 }
 .parag-content{
     font-family:'Source Sans Pro' ;
-    margin:30px 0px
+    font-size: 0.944444rem;
+    margin:30px 0px;
+}
+.confirm{
+    font-size: 0.944444rem;
+    font-family: 'Source Sans Pro';
 }
 .rely-bt{
-    padding: 15px 40px;
+    padding: 15px 69px;
     border-radius: 40px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
     background-color: #f4d35e;
@@ -44,7 +50,18 @@
     color: white;
     text-decoration: none;
 }
+@media screen and (min-width: 1303px) {
+    .rely-tittle{
+        font-size: 2.66rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
 @media screen and (min-width: 1040px) {
+    .content{
+        padding-bottom: 80px;
+    }
     .by-rely-on{
         background-image: url('../../images/img-copy.jpg');
         background-size: 100% 100%;
@@ -52,9 +69,12 @@
         
     }
     .rely-tittle{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    .parag-content{
+        font-size: 1.16666666rem;
     }
 }

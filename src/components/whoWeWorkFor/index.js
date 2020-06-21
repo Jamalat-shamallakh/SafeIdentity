@@ -52,7 +52,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    Trust is essential for pharma to work with supply chain and third-party vendors, lead virtual clinical trials and comply with FDA – 21 CFR part 11. Leading pharmaceutical companies and the FDA rely on our interoperable and compliant policies to identify and share encrypted information with intended parties.
+                    Maintaining security across the enterprise border is essential for proper stewardship of intellectual property - a critical element of competitive advantage for the pharmaceutical industry. Reliable digital identity and the ability to share encrypted information with intended parties becomes even more essential. Leading pharmaceutical companies and the FDA rely on our work to define interoperable, compliant and legally binding policies that we use to certify identity providers against as part of our Trust Framework.  
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -67,7 +67,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    We ease the burden of satisfying 21 CFR part 1311 by certifying identity providers who satisfy DEA and federal regulatory requirements for EPCS. We also and support use cases in hospital and laboratory supply chains including health IoT, secure data exchange and physical access to protect patient data.
+                   Satisfying 21 CFR part 1311 is challenging for prescribers who use e-prescriptions for prescribing controlled substances. We ease the burden of satisfying these requirements by certifying identity providers who satisfy DEA and federal regulatory requirements for EPCS. We also support multiple use cases in hospital and laboratory supply chains including health IoT to secure intellectual property and protect patient data.
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -85,7 +85,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    Reducing risk and eliminating fraudulent claims with secure patient identities is a critical concern for payers. We simplify the complexity that goes into confirming digital signatures and digital identities for document continuity, data access and telehealth with tested protocols and certified providers
+                    Fraud protection is top of mind for payers. Document continuity and data access are increasingly essential to maintain critical functionality across the insurance landscape. Privacy isn't only for policyholders and payees. We simplify the complexity that typically goes into the confirmation of digital signatures and digital identities with tested protocols and certified providers that make up the SAFE Identity Trust Framework.
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -100,7 +100,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    We define the policies and specifications it takes to properly develop, test and certify that new technologies are secure and interoperable. Healthcare organizations can purchase from SAFE QPL-listed technology providers with assurance that these products have been tested and meet their needs.
+                    The SAFE Identity ecosystem depends on technology providers for everything from certified credentials to applications that use them. We define the policies and specifications it takes to properly develop, test and certify new technologies so healthcare organizations can purchase from SAFE QPL-listed technology providers with assurance.
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -122,7 +122,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    Trust is essential for pharma to work with supply chain and third-party vendors, lead virtual clinical trials and comply with FDA – 21 CFR part 11. Leading pharmaceutical companies and the FDA rely on our interoperable and compliant policies to identify and share encrypted information with intended parties.
+                    Maintaining security across the enterprise border is essential for proper stewardship of intellectual property - a critical element of competitive advantage for the pharmaceutical industry. Reliable digital identity and the ability to share encrypted information with intended parties becomes even more essential. Leading pharmaceutical companies and the FDA rely on our work to define interoperable, compliant and legally binding policies that we use to certify identity providers against as part of our Trust Framework.  
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -140,7 +140,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    We ease the burden of satisfying 21 CFR part 1311 by certifying identity providers who satisfy DEA and federal regulatory requirements for EPCS. We also and support use cases in hospital and laboratory supply chains including health IoT, secure data exchange and physical access to protect patient data.
+                   Satisfying 21 CFR part 1311 is challenging for prescribers who use e-prescriptions for prescribing controlled substances. We ease the burden of satisfying these requirements by certifying identity providers who satisfy DEA and federal regulatory requirements for EPCS. We also support multiple use cases in hospital and laboratory supply chains including health IoT to secure intellectual property and protect patient data.
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -158,7 +158,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    Trust is essential for pharma to work with supply chain and third-party vendors, lead virtual clinical trials and comply with FDA – 21 CFR part 11. Leading pharmaceutical companies and the FDA rely on our interoperable and compliant policies to identify and share encrypted information with intended parties.
+                    Fraud protection is top of mind for payers. Document continuity and data access are increasingly essential to maintain critical functionality across the insurance landscape. Privacy isn't only for policyholders and payees. We simplify the complexity that typically goes into the confirmation of digital signatures and digital identities with tested protocols and certified providers that make up the SAFE Identity Trust Framework.  
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
@@ -175,7 +175,7 @@ const WhoWeWorkFor = ()=>{
                       </span>
                     </h3>
                     <p className="parag-style" >
-                    Trust is essential for pharma to work with supply chain and third-party vendors, lead virtual clinical trials and comply with FDA – 21 CFR part 11. Leading pharmaceutical companies and the FDA rely on our interoperable and compliant policies to identify and share encrypted information with intended parties.
+                    The SAFE Identity ecosystem depends on technology providers for everything from certified credentials to applications that use them. We define the policies and specifications it takes to properly develop, test and certify new technologies so healthcare organizations can purchase from SAFE QPL-listed technology providers with assurance.
                     </p>
                     <div className="read-more-bt-margin">
                     <a className="read-more-bt">
